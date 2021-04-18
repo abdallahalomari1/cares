@@ -1,0 +1,37 @@
+h1{
+text-align:center;
+color: red;
+}
+
+img{
+width: 50%;
+}
+
+nav ul li a {
+
+  border: 1px salmon;
+}
+
+table{
+color: blue;
+border-block-end-color: yellow;
+column-rule-width: 50%
+}
+
+p{
+color: yellowgreen;
+margin-top: 50px;
+margin-right: 100px;
+
+}
+
+nav ul li a {
+  border-block-end: 100px;
+text-decoration: none;
+}
+
+nav ul li{
+
+border: 1px solid;
+margin: 25 px;
+}

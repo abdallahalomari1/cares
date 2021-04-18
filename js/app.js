@@ -9,13 +9,13 @@ if(typecar=="small"){
 
  var image1='<img src="img/2.jpg"alt="smallcar"/>';
 document.write(image1);
-
+doument.write('<h>small car</h>')
 }
 if(typecar=="large"){
 
 
-document.write('< img src="https://images.honestjohn.co.uk/imagecache/file/width/640/media/11844111/volvo-xc90-1.jpg"alt="largecar"alt="large car">');
-
+document.write('<img src="https://images.honestjohn.co.uk/imagecache/file/width/640/media/11844111/volvo-xc90-1.jpg"alt="largecar"alt="large car">');
+document.write('<p>my fav large car</p>');
 } 
 var number= prompt("how many car favarate");
 

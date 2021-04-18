@@ -5,6 +5,9 @@ color: red;
 
 img{
 width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 nav ul li a {
@@ -16,6 +19,9 @@ table{
 color: blue;
 border-block-end-color: yellow;
 column-rule-width: 50%
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 p{
@@ -31,7 +37,13 @@ text-decoration: none;
 }
 
 nav ul li{
-
 border: 1px solid;
 margin: 25 px;
+
+}
+li{
+  border: 1px solid;
+  display: inline-block;
+ 
+
 }

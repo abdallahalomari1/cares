@@ -9,7 +9,7 @@ if(typecar=="small"){
 
  var image1='<img src="img/2.jpg"alt="smallcar"/>';
 document.write(image1);
-doument.write('<h>small car</h>')
+document.write('<h>small car</h>');
 }
 if(typecar=="large"){
 

@@ -1,5 +1,5 @@
 alert("welcome to my website");
-var typecar =prompt("please enter your favarate car small car or large car");
+var typecar =prompt("please enter your favarate car small car or large car"+'small or large');
 console.log(typecar);
 while( typecar!=='small'&& typecar!=='large')
 { 
@@ -13,8 +13,8 @@ document.write(image1);
 }
 if(typecar=="large"){
 
-var image2='<img src="https://images.honestjohn.co.uk/imagecache/file/width/640/media/11844111/volvo-xc90-1.jpg"alt="largecar"/>';
-document.write(image2);
+
+document.write('< img src="https://images.honestjohn.co.uk/imagecache/file/width/640/media/11844111/volvo-xc90-1.jpg"alt="largecar"alt="large car">');
 
 } 
 var number= prompt("how many car favarate");
